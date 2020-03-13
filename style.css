@@ -1,0 +1,31 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+main {
+
+    background-color: pink;
+
+
+}
+
+.blocco {
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+
+}
+.blocco:first-child {
+    background-image: url('https://www.mondoffice.com/content/images/product/720680_1_ban.jpg');
+    background-size: cover;
+}
+.blocco:nth-child(2) {
+    background-image: url('https://www.mondoffice.com/content/images/product/70071_1_ban.jpg');
+    background-size: cover;
+}
+.blocco:nth-child(3) {
+    background-image: url('https://www.mondoffice.com/content/images/product/701618_1_ban.jpg');
+    background-size: cover;
+}
