@@ -14,7 +14,17 @@
     position: relative;
 
 }
+p {
+    background-color: lightgreen;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'Baloo Chettan 2', cursive;
 
+}
 .fas {
     font-size: 30px;
     position: absolute;
