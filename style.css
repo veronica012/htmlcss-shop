@@ -3,9 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+.e-shop {
+    width: 100vw;
+    
+}
 .blocco {
     width: 200px;
-    height: 250px;
+    height: 300px;
     display: inline-block;
     background-color: pink;
     margin-top: 20px;
@@ -21,12 +25,19 @@
     left: 50%;
     transform: translate(-50%);
 }
+span {
+    display: none;
+}
+
+.blocco:hover span {
+    display: block;
+}
+
 .blocco:first-child {
-    background-image: url("https://www.lindt.it/shop/media/catalog/product/cache/4/small_image/170x130/040ec09b1e35df139433887a97daa66f/p/i/pick_mix_scatola_assoritta_700g.png");
-    background-size: cover;
+    background-image: url("https://www.alcenero.com/wp-content/uploads/2017/02/fondente-100-CFN050-w-1-320x320.png")
 }
 .blocco:nth-child(2) {
-    background-image: url("https://www.lindt.it/shop/media/catalog/product/cache/4/small_image/166x166/9df78eab33525d08d6e5fb8d27136e95/g/o/goldbunny_flower_200g_469794.png");
+    background-image: url("https://www.alcenero.com/wp-content/uploads/2016/02/comp_albi-CF833-3-320x320.png");
     background-size: cover;
 }
 .blocco:nth-child(3) {
