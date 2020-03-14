@@ -11,12 +11,25 @@
     margin-top: 20px;
     margin-left: 20px;
     position: relative;
+
 }
+
 .fas {
     font-size: 30px;
     position: absolute;
     bottom: 10px;
     left: 50%;
     transform: translate(-50%);
-
+}
+.blocco:first-child {
+    background-image: url("https://www.lindt.it/shop/media/catalog/product/cache/4/small_image/170x130/040ec09b1e35df139433887a97daa66f/p/i/pick_mix_scatola_assoritta_700g.png");
+    background-size: cover;
+}
+.blocco:nth-child(2) {
+    background-image: url("https://www.lindt.it/shop/media/catalog/product/cache/4/small_image/166x166/9df78eab33525d08d6e5fb8d27136e95/g/o/goldbunny_flower_200g_469794.png");
+    background-size: cover;
+}
+.blocco:nth-child(3) {
+    background-image: url("https://www.lindt.it/shop/media/catalog/product/cache/4/small_image/166x166/9df78eab33525d08d6e5fb8d27136e95/i/t/it_lindt_boule_maxi_lindor_latte_250g_854192.png");
+    background-size: cover;
 }
